@@ -1,7 +1,7 @@
 /*
 
 2870. Minimum Number of Operations to Make Array Empty
-https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/submissions/?envType=daily-question
+https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/?envType=daily-question
 
 
 You are given a 0-indexed array nums consisting of positive integers.
