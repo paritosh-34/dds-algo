@@ -37,3 +37,33 @@ Constraints:
   s and t consist of lowercase English letters only.
 
 */
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class Solution
+{
+public:
+  int minSteps(string s, string t)
+  {
+    vector<int> hashmap(26, 0);
+
+    for (char ch : s)
+    {
+      hashmap[ch - 'a']++;
+    }
+
+    int similarCharCount = 0;
+    for (char ch : t)
+    {
+      if (hashmap[ch - 'a'] != 0)
+      {
+        hashmap[ch - 'a']--;
+        similarCharCount++;
+      }
+    }
+
+    return t.length() - similarCharCount;
+  }
+};
