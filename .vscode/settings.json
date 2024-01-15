@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "*.env*": "dotenv",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "vector": "cpp"
   }
 }
